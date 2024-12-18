@@ -27,20 +27,12 @@ By solving the same problem in both paradigms, the project highlights their diff
 
 ## Paradigm Comparison
 
-| Feature                 | Imperative                     | Functional                     |
-|-------------------------|---------------------------------|--------------------------------|
-| **State Management**    | Mutable                       | Immutable                     |
-| **Control Structures**  | Loops, Conditions             | Recursion, Function Composition |
-| **Ease of Use**         | Simple                        | Complex                       |
-| **Performance**         | Efficient                     | Depends on recursion depth    |
-| **Scalability**         | Moderate                      | High                          |
-
----
-
-### Why Functional was Challenging?
-The **functional approach** required a shift in mindset:
-- Avoiding **loops** and **conditions** entirely.
-- Implementing **recursion** for control flow.
-- Designing code with **pure functions** and **immutability**.
-  
-Thanks to functional programming concepts, the code became modular, reusable, and aligned with modern software practices, but at the cost of increased complexity.
+| Feature                 | Imperative                     | Functional                      |
+|-------------------------|--------------------------------|---------------------------------|
+| **State Management**    | Mutable                        | Immutable                       |
+| **Control Structures**  | Loops, Conditions              | Recursion, Function Composition |
+| **Ease of Use**         | Simple                         | Complex                         |
+| **Code Style**          | Declarative	                   | Step-by-Step                    |
+| **Functions**           |	Pure, Higher-Order             |	Step-oriented, Non-Pure        |
+| **Performance**         | Efficient                      | Depends on recursion depth      |
+| **Scalability**         | Moderate                       | High                            |
